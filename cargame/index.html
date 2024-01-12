@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Racing</title>
+    <link rel="stylesheet" href="./public/css/style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="light1"></div>
+        <div class="light2"></div>
+        <div class="light3"></div>
+        <button class="start" onclick="startAnimation()">Bắt đầu</button>
+    </div>
+    <!-- RACING -->
+    <div class="car1">
+        Nhiên liệu xe 1
+        <div class="fuel1"></div>
+    </div>
+    <div class="car2">
+        Nhiên liệu xe 2
+        <div class="fuel2"></div>
+    </div>
+    <div class="road">
+        <img src="./public/image/street.jpg" alt="">
+    </div>
+    <div class="xe1">
+        <img id="car1" src="./public/image/car(1).png" alt="">
+    </div>
+    <div class="xe2">
+        <img id="car2" src="./public/image/car(2).png" alt="">
+    </div>
+    <div class="end"></div>
+
+    <!-- FOOTER -->
+    <button class="restart"><a href="index.html">Bắt đầu lại</a></button>
+    <audio id="warmUpSound" src="./public/image/mix_07s(1) (mp3cut.net).mp3" type="audio/mp3"></audio>
+
+    <script src="./public/js/main.js"></script>
+</body>
+</html>
